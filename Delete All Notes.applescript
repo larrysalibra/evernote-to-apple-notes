@@ -23,7 +23,7 @@ you run this. You have been warned.
 
 ======
 
-This worked on Apple Notes Version 4.0 (535) on OS X 10.11 (15A282b) 
+This worked on Apple Notes Version 4.0 (535) on OS X 10.11 (15A284) 
 It might not work on yours.
 
 Known Issue: Deleted folders sometimes randomly reappear a short while later.
@@ -32,7 +32,7 @@ Workaround: Run the script again and/or manually delete the empty folders.
 *)
 
 tell application "Notes"
-	display dialog "This script will delete all folders from a the account." & Â
+	display dialog "This script will delete all folders from the account." & Â
 		linefeed & linefeed & "This action cannot be undone." buttons {"Cancel", "I'm sure! Let's do this!"} Â
 		default button 1 with icon 2
 	set thisAccountName to Â

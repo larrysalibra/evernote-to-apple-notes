@@ -24,7 +24,7 @@ you run this. You have been warned.
 ======
 
 This worked on Evernote Version 6.1.1 (452254 App Store) 
-and Apple Notes Version 4.0 (535) on OS X 10.11 (15A282b) 
+and Apple Notes Version 4.0 (535) on OS X 10.11 (15A284) 
 It might not work on yours.
 
 Known Issue: Migrating too many notes at one time may cause Evernote to time out. 
