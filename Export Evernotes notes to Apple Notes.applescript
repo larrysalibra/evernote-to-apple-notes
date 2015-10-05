@@ -55,10 +55,8 @@ with timeout of (timeoutInMinutes * 60) seconds
 	set exportFolder to "Users:" & username & ":Library:Containers:com.evernote.Evernote:Data:attachment_export:" as string
 	set importFolder to "Users:" & username & ":Library:Containers:com.apple.Notes.HTMLConverter:Data:import:" as string
 	
-	tell application "System Events"
-		set exportFolderPosix to (POSIX path of folder exportFolder) & "/"
-		set importFolderPosix to (POSIX path of folder importFolder) & "/"
-	end tell
+	set exportFolderPosix to "/Users/" & username & "/Library/Containers/com.evernote.Evernote/Data/attachment_export/" as string
+	set importFolderPosix to "/Users/" & username & "/Library/Containers/com.apple.Notes.HTMLConverter/Data/import/" as string
 	
 	do shell script "mkdir -p " & quoted form of exportFolderPosix
 	do shell script "mkdir -p " & quoted form of importFolderPosix
